@@ -1,11 +1,11 @@
 ﻿scenario,scenario_type,rank_spearman_with_main,excluded_variable_count,is_no_op,note
-drop_industrial_imputed,剔除敏感变量,1.0,1,False,重新计算组合权重和 TOPSIS 排名
-drop_postgraduate_zero_sensitive,剔除敏感变量,0.945054945054945,2,False,重新计算组合权重和 TOPSIS 排名
-drop_high_corr_redundant,剔除敏感变量,0.945054945054945,5,False,重新计算组合权重和 TOPSIS 排名
-weight_combined,基准,1.0,0,False,博弈论组合赋权 TOPSIS 主结果
-standardization_zscore_combined,更换标准化方法,0.989010989010989,0,False,使用 Z-score 表和组合权重进行 TOPSIS；该场景仅作方法稳健性对照，正理想解不解释为 Min-Max 框架下的1
-weight_equal_entropy_critic,更换赋权方法,1.0,0,False,与博弈论组合赋权 TOPSIS 主结果比较
-weight_equal_dimension,更换赋权方法,0.989010989010989,0,False,与博弈论组合赋权 TOPSIS 主结果比较
-weight_entropy,更换赋权方法,0.9835164835164836,0,False,与博弈论组合赋权 TOPSIS 主结果比较
-weight_equal_indicator,更换赋权方法,0.9835164835164836,0,False,与博弈论组合赋权 TOPSIS 主结果比较
-weight_critic,更换赋权方法,0.9725274725274725,0,False,与博弈论组合赋权 TOPSIS 主结果比较
+drop_industrial_imputed,剔除敏感变量,1,1,FALSE,重新计算组合权重和 TOPSIS 排名
+drop_postgraduate_zero_sensitive,剔除敏感变量,0.945054945,2,FALSE,重新计算组合权重和 TOPSIS 排名
+drop_high_corr_redundant,剔除敏感变量,0.945054945,5,FALSE,重新计算组合权重和 TOPSIS 排名
+weight_combined,基准,1,0,FALSE,博弈论组合赋权 TOPSIS 主结果
+standardization_zscore_combined,更换标准化方法,0.989010989,0,FALSE,使用 Z-score 表和组合权重进行 TOPSIS；该场景仅作方法稳健性对照，正理想解不解释为 Min-Max 框架下的1
+weight_equal_entropy_critic,更换赋权方法,1,0,FALSE,与博弈论组合赋权 TOPSIS 主结果比较
+weight_equal_dimension,更换赋权方法,0.989010989,0,FALSE,与博弈论组合赋权 TOPSIS 主结果比较
+weight_entropy,更换赋权方法,0.983516484,0,FALSE,与博弈论组合赋权 TOPSIS 主结果比较
+weight_equal_indicator,更换赋权方法,0.983516484,0,FALSE,与博弈论组合赋权 TOPSIS 主结果比较
+weight_critic,更换赋权方法,0.972527473,0,FALSE,与博弈论组合赋权 TOPSIS 主结果比较
